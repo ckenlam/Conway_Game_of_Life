@@ -11,4 +11,4 @@ The following is a sample result:
 ![](game_of_life.gif)
 
 Simply run the script as followed:
-'''python game_of_life.py -weight 200 -height 200'''
+```python game_of_life.py -weight 200 -height 200```
