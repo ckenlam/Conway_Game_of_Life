@@ -19,4 +19,4 @@ The following is a sample outcome:
 
 Simply run the script as followed:
 
-```python game_of_life.py -weight 200 -height 200```
+```python conway_game_of_life.py -weight 200 -height 200```
