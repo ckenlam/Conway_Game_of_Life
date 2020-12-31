@@ -6,7 +6,8 @@ The rules of John Conway's Game of Life are as followed:
 * Any dead cell with three live neighbours becomes a live cell.
 * All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
-The following is a sample result
+The following is a sample result:
+
 ![](game_of_life.gif)
 
 Simply run the script as followed:
