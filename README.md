@@ -4,7 +4,7 @@
 
 John Horton Conway, pioneering Mathematician and creator of the Game of Life, was sadly lost to covid-19 in April 2020.
 
-As a tribute, this is my take on the famous John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). The Game of Life, also known simply as Life, is a cellular automaton was invented in 1970. With only 3 basic rules, unpredictable and complex patterns seemingly evolve into creatures. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
+As a tribute, this is my take on the famous John Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). The Game of Life, also known simply as Life, is a cellular automaton that was invented in 1970. With only 3 basic rules, unpredictable and complex patterns seemingly evolve into creatures. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
 
 The board is initiated with a random number generator between 0 and 1 drawing samples from a uniform distribution; any cell with a number smaller than 0.1 will be initiated with an alive-cell. The game will run for 500 generations and the process is animated with *matplotlib.animation.FuncAnimation*. By default, the board will have a dimension of 150x150. 
 
