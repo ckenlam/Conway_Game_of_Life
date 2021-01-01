@@ -12,8 +12,8 @@ def main():
 	args = parser.parse_args()
 	game = Board(args.weight,args.height)
 	ani = game.animation()
-	writer = PillowWriter(fps=60)  
-	ani.save("game_of_life.gif", writer=writer)  
+	#writer = PillowWriter(fps=60)  
+	#ani.save("game_of_life.gif", writer=writer)  
 	plt.show()
 	
 	
